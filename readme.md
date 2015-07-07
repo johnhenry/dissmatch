@@ -1,8 +1,10 @@
 #Dissmatch
 negatively match objects
 (note: this documentation is in a very rough state. Many parts are illegible.)
+(also, there aren't really "test", perse)
+
 ##About
-It is often infiesable to match entire objects. **Dissmatch** does not try to match the whole object. Instead, it matches a given object agains a pattern and returns a value only when there is a violation of the pattern. If there are parts of the object that are not defined in the pattern, **dismatch** simply ignores them.
+It is often infeasible to match entire objects. **Dissmatch** does not try to match the whole object. Instead, it matches a given object agains a pattern and returns a value only when there is a violation of the pattern. If there are parts of the object that are not defined in the pattern, **dismatch** simply ignores them.
 
 ##Installation
 In your project's directory on the command line:
